@@ -26,14 +26,13 @@
   /*Farver */
   --color-primary-900: #ffffff;
   --color-secondary-900: #263342;
-  --color-tertiery-900: #fb5417;
+  --color-tertiary-900: #fb5417;
   --color-accent-900: #449285;
   --color-black-900: #000000;
 
   /*Typografi */
-  --font-display: "Honk", monospace;
-  --font-sans: "Quicksand", sans-serif;
-  --font-serif: "Domine", serif;
+  --font-heading: "futura-pt", sans-serif;
+  --font-p: "helvetica-neue", sans-serif;
 }
 
 @layer base {
