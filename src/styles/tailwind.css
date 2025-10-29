@@ -33,6 +33,18 @@
   /*Typografi */
   --font-heading: "futura-pt", sans-serif;
   --font-p: "helvetica-neue", sans-serif;
+
+  /* Banner animation */
+  --animate-infinite-scroll: infinite-scroll 25s linear infinite;
+
+  @keyframes infinite-scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
 }
 
 @layer base {
